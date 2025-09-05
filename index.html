@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Digital portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Platform</title>
+</head>
+<body>
+
+  <header> 
+      <h1> I'am Thamizhselvi</h1>
+      <h2>📚 E-Learning Platform 📚</h2>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#video">Video</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+   
+   <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src=" https://i.postimg.cc/sfKP45SL/IMG-20250725-175559-1.jpg  " alt="Profile Photo">
+      <p>
+        I’m a student I love technology and design. I enjoy creating  web applications that are easy to use and fun to explore. My goal is to keep learning and build projects that really help people.
+
+
+I believe online learning can make education simple and reachable for everyone, and I’m excited to be part of that change!
+        
+   </p>
+      
+<title>Image Side by Side</title>
+
+<div class="image-container">
+  <img src="https://i.postimg.cc/prsgWb22/IMG-20250830-100543.jpg"alt="Image 1">
+  <img src="https://i.postimg.cc/GpNwY1Y9/file-00000000191c61f8ab17d877b2840064-1.png" alt="Image 2">
+</div>
+
+  
+      <!-- Courses Section -->
+  <section id="courses">
+      
+       <h2>Available Courses📚 </h2>
+      <div>
+        <div class="course-card">
+      <h3>HTML Basics</h3>
+      <p>Learn the building blocks of web development.</p>
+     
+    </div>
+        <div>
+    <div class="course-card">
+      <h4>CSS Styling</h4>
+      <p>Design beautiful and responsive websites.</p>
+    </div>
+     <div>
+    <div class="course-card">
+      <h4>JavaScript</h4>
+      <p>Make your websites interactive.</p>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="video">
+    <h2>Sample Video Lecture</h2>
+    <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+  </section>
+          <button onclick="backToCourses()">Back to Courses</button>
+
+  </section>
+
+ 
+
+  <!-- Quiz Section -->
+  <section id="quiz">
+    <h2>Quick Quiz</h2>
+    <p>Q1: HTML stands for?</p>
+    <input type="radio" name="q1" value="wrong"> HighText Machine Language<br>
+    <input type="radio" name="q1" value="correct"> HyperText Markup Language<br>
+    <input type="radio" name="q1" value="wrong"> Hyperlink Marking Language<br><br>
+
+    <p>Q2: Which tag is used for CSS?</p>
+    <input type="radio" name="q2" value="wrong"> &lt;script&gt;<br>
+    <input type="radio" name="q2" value="correct"> &lt;style&gt;<br>
+    <input type="radio" name="q2" value="wrong"> &lt;css&gt;<br><br>
+
+    <button onclick="checkQuiz()">Submit Quiz</button>
+    <p id="result"></p>
+  </section>
+    
+ <!-- Login -->
+
+  <section id="login">
+
+    <h2>Login / Signup</h2>
+
+    <form onsubmit="handleLogin(event)">
+
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="password" required>
+
+      
+      <button type="submit">Login</button>
+
+    </form>
+
+    <p id="status"></p>
+
+  </section>
+
+  <footer>
+
+    <p>© 2025 E-Learning Platform | Designed by Thamizhselvi</p>
+
+  </footer>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
